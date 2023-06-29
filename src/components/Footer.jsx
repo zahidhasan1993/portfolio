@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white text-2xl w-full md:pl-32 p-6">
+    <footer className="bg-gray-800 text-white text-2xl w-full md:pl-32 p-6 flex flex-col justify-center items-center">
       <div className="container mx-auto md:grid md:grid-cols-3 md:gap-20 items-center justify-between">
        
         <div className="text-center md:text-left">
@@ -14,7 +14,7 @@ const Footer = () => {
             Location: Dhaka, Bangladesh
           </p>
         </div>
-        <div className="mt-4 ml-7 md:mt-0 ">
+        <div className="mt-4 ml-7 md:mt-0 text-center mr-20">
           <a href="https://www.facebook.com/profile.php?id=100066076810758" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white mx-2">
             Facebook
           </a>

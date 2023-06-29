@@ -21,8 +21,8 @@ const Projects = () => {
         <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full">
             <img className="w-52 ml-12" src={project1} alt="Card" />
             <div className="p-4">
-              <h1 className="text-xs pb-3">Full MERN Stack Project</h1>
-              <h1 className="font-bold my-2">Rhythm-Retreat</h1>
+              <h1 className="text-xs pb-3">&#128178; Full MERN Stack Project &#128640;</h1>
+              <h1 className="font-bold my-2">&#127927; Rhythm-Retreat &#127928;</h1>
               <p className="mb-2">
                 This project is based on a summer camp school.This app is have 3 different dashboard for 3 different users.Including a payment method and many more... 
               </p>
@@ -44,8 +44,8 @@ const Projects = () => {
           <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full">
             <img className="w-52 ml-12" src={project2} alt="Card" />
             <div className="p-4">
-            <h1 className="text-xs pb-3">Full MERN Stack Project</h1>
-            <h1 className="font-bold my-2">DesiCuisine</h1>
+            <h1 className="text-xs pb-3">&#128178; Full MERN Stack Project &#128640;</h1>
+            <h1 className="font-bold my-2">&#129369; DesiCuisine &#129367;</h1>
 
               <p className="mb-2">
                 This Website is based on a food website theme. Here user can authenticate and login they can see their favorite chef's recipes.
@@ -68,8 +68,8 @@ const Projects = () => {
           <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full">
             <img className="w-52 ml-12 mt-16" src={project3} alt="Card" />
             <div className="p-4 mt-10">
-            <h1 className="text-xs pb-3">Full MERN Stack Project</h1>
-            <h1 className="font-bold my-2">WhizzyWheels</h1>
+            <h1 className="text-xs pb-3">&#128178; Full MERN Stack Project &#128640;</h1>
+            <h1 className="font-bold my-2">&#128667; WhizzyWheels &#128663;</h1>
 
               <p className="mb-2">
                 This app is a toy car selling website. User after registration can add their toys on the app and sell them. They can update or delete a toy and many more...
@@ -92,8 +92,8 @@ const Projects = () => {
           <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full">
             <img className="w-52 ml-12" src={project4} alt="Card" />
             <div className="p-4">
-            <h1 className="text-xs pb-3">Full MERN Stack Project</h1>
-            <h1 className="font-bold my-2">AutoMedics</h1>
+            <h1 className="text-xs pb-3">&#128178; Full MERN Stack Project &#128640;</h1>
+            <h1 className="font-bold my-2">&#128667; AutoMedics &#128668;</h1>
 
               <p className="mb-2">
                 On this app a user can choose what he want to repair in his cars. This app is based on car repair website. User can book their time and many more....
