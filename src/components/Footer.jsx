@@ -14,7 +14,7 @@ const Footer = () => {
             Location: Dhaka, Bangladesh
           </p>
         </div>
-        <div className="mt-4 ml-7 md:mt-0 text-center mr-20">
+        <div className="mt-4 md:ml-7 md:mt-0 text-center md:mr-20">
           <a href="https://www.facebook.com/profile.php?id=100066076810758" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white mx-2">
             Facebook
           </a>
