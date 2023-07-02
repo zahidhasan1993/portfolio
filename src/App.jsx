@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -7,11 +8,14 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+
 const App = () => {
   return (
     <div className="bg-[#0a192f]">
       <Navbar></Navbar>
+
       <Home></Home>
+
       <About></About>
       <Skills></Skills>
       <Projects></Projects>
