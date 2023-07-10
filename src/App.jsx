@@ -8,18 +8,27 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-
 const App = () => {
   return (
     <div className="bg-[#0a192f]">
       <Navbar></Navbar>
 
-      <Home></Home>
+      <div className="">
+        <Home></Home>
+      </div>
+      <div className="my-40">
+        <About></About>
+      </div>
 
-      <About></About>
-      <Skills></Skills>
-      <Projects></Projects>
-      <Contact></Contact>
+      <div className="my-40">
+        <Skills></Skills>
+      </div>
+      <div className="my-40">
+        <Projects></Projects>
+      </div>
+      <div className="my-40">
+        <Contact></Contact>
+      </div>
       <Footer></Footer>
     </div>
   );

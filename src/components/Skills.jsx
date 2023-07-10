@@ -7,13 +7,23 @@ import js from "../assets/Images/skills/javascript.png"
 import mongo from "../assets/Images/skills/mongo.png"
 import node from "../assets/Images/skills/node.png"
 import react from "../assets/Images/skills/react.png"
+import { motion } from 'framer-motion';
 
 const Skills = () => {
   return (
     <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="">
-          <p className="text-4xl font-bold inline border-b-4 border-white py-4">Experience</p>
+        <motion.p
+        className="text-4xl font-bold inline border-b-4 border-white py-4"
+        animate={{
+          color: ['#BEE3F8', '#93C5FD', '#BEE3F8'],
+          transition: { duration: 1, repeat: Infinity },
+        }}
+      >
+        Experience
+      </motion.p>
+          {/* <p className="text-4xl font-bold inline border-b-4 border-white py-4">Experience</p> */}
           <p className="py-12">// These are the technologies I've worked with</p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 text-center py-8">

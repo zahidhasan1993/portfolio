@@ -1,0 +1,11 @@
+@keyframes lightUp {
+    0% {
+      color: #BEE3F8;
+    }
+    50% {
+      color: #93C5FD;
+    }
+    100% {
+      color: #BEE3F8;
+    }
+  }

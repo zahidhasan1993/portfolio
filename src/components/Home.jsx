@@ -1,15 +1,24 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { motion } from "framer-motion";
-
+import "./style.css"
 const Home = () => {
   return (
     <div name="home" className="w-full pt-40 md:pt-0 md:h-screen bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-white text-xl">Hi,my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        {/* <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Zahid Hasan
-        </h1>
+        </h1> */}
+         <motion.p
+        className="text-7xl"
+        animate={{
+          color: ['#BEE3F8', '#93C5FD', '#BEE3F8'],
+          transition: { duration: 1, repeat: Infinity },
+        }}
+      >
+        Zahid Hasan
+      </motion.p>
         <h2 className="text-4xl sm-text-7xl font-bold text-[#8892b0]">
           I'm a MERN Stack Developer
         </h2>
@@ -24,7 +33,7 @@ const Home = () => {
           <motion.div
             initial={{ x: -30 }}
             animate={{ x: 30 }}
-            transition={{ duration: 10, repeat: Infinity, repeatType: "mirror" }}
+            transition={{ duration: 5, repeat: Infinity, repeatType: "mirror" }}
             style={{
               position: "relative",
             }}

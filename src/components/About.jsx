@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -14,12 +15,26 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p className="">
+            <motion.p
+              className=""
+              animate={{
+                color: ["#BEE3F8", "#93C5FD", "#BEE3F8"],
+                transition: { duration: 1, repeat: Infinity },
+              }}
+            >
               Hi, I'm Zahid, nice to meet you, Please take a look around.
-            </p>
+            </motion.p>
+            {/* <p className="">
+              Hi, I'm Zahid, nice to meet you, Please take a look around.
+            </p> */}
           </div>
           <div>
-            <p>I am passionate about building excellent software that improves the lives of those around me.I specialize in creating in MERN Stack technologies.What would you do if you had a software expert available At your fingertips?</p>
+            <p>
+              I am passionate about building excellent software that improves
+              the lives of those around me.I specialize in creating in MERN
+              Stack technologies.What would you do if you had a software expert
+              available At your fingertips?
+            </p>
           </div>
         </div>
       </div>
