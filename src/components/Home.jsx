@@ -29,7 +29,7 @@ const Home = () => {
 
         <div>
           <div>
-            <a href="https://drive.google.com/file/d/1m8kPUhYghx-WVr51aeqTx1zo8ReBdaKN/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1EOOOAgQ4vYU0LZnw1FPWpKazYAwIq9PS/view?usp=sharing">
               <button className="text-white group border-2 px-6 py-3 my-2 flex gap-2 items-center hover:bg-white hover:text-black">
                 Download Resume
                 <span className="group-hover:rotate-90 duration-500">
