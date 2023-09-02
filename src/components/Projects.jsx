@@ -30,7 +30,7 @@ const Projects = () => {
           <p className="py-12">// These are the projects I've worked with</p>
         </div>
         <div className="md:grid md:grid-cols-3 md:gap-10">
-          <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full hover:scale-125 transition-transform">
+          <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full md:hover:scale-125 transition-transform">
             <img className="w-52 ml-12" src={project1} alt="Card" />
             <div className="p-4">
               <h1 className="text-xs pb-3">
@@ -64,7 +64,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full hover:scale-125 transition-transform">
+          <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full md:hover:scale-125 transition-transform">
             <img className="w-52 ml-12" src={project2} alt="Card" />
             <div className="p-4">
               <h1 className="text-xs pb-3">
@@ -99,7 +99,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full hover:scale-125 transition-transform">
+          <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full md:hover:scale-125 transition-transform">
             <img className="w-52 ml-12 mt-16" src={project3} alt="Card" />
             <div className="p-4 mt-10">
               <h1 className="text-xs pb-3">
@@ -134,7 +134,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full hover:scale-125 transition-transform">
+          <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full md:hover:scale-125 transition-transform">
             <img className="w-52 ml-12" src={project4} alt="Card" />
             <div className="p-4">
               <h1 className="text-xs pb-3">
