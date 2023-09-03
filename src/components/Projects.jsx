@@ -65,41 +65,6 @@ const Projects = () => {
           </div>
 
           <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full md:hover:scale-125 transition-transform">
-            <img className="w-52 ml-12" src={project2} alt="Card" />
-            <div className="p-4">
-              <h1 className="text-xs pb-3">
-                &#128178; Full MERN Stack Project &#128640;
-              </h1>
-              <h1 className="font-bold my-2">
-                &#129369; DesiCuisine &#129367;
-              </h1>
-
-              <p className="mb-2">
-                This Website is based on a food website theme. Here user can
-                authenticate and login they can see their favorite chef's
-                recipes.
-              </p>
-
-              <div className="flex justify-between mt-8">
-                <div className="flex justify-center items-center gap-2">
-                  <button className="text-White">
-                    <a href="https://github.com/zahidhasan1993/desiCuisine">
-                      Github
-                    </a>
-                  </button>
-                  <FaArrowRight />
-                </div>
-                <div className="flex justify-center items-center gap-2 text-blue-500">
-                  <button className="">
-                    <a href="https://desicuisin-8119b.web.app/">Live site</a>
-                  </button>
-                  <FaArrowRight />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full md:hover:scale-125 transition-transform">
             <img className="w-52 ml-12 mt-16" src={project3} alt="Card" />
             <div className="p-4 mt-10">
               <h1 className="text-xs pb-3">
