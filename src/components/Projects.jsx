@@ -35,7 +35,7 @@ const Projects = () => {
               <h1 className="text-xs pb-3">
                 &#128178; Full MERN Stack Project &#128640;
               </h1>
-              <h1 className="font-bold my-2">&#128667; Dineease &#128668;</h1>
+              <h1 className="font-bold my-2">&#129368; Dineease &#127858;</h1>
 
               <p className="mb-2">
                 This App is a restaurant management app. This app is full build.
@@ -103,11 +103,11 @@ const Projects = () => {
                 &#128178; Full MERN Stack Project &#128640;
               </h1>
               <h1 className="font-bold my-2">
-                &#128667; WhizzyWheels &#128663;
+                &#128667; ToyVerse &#128663;
               </h1>
 
               <p className="mb-2">
-                This app is a toy car selling website. User after registration
+                This app is a toy selling website. User after registration
                 can add their toys on the app and sell them. They can update or
                 delete a toy and many more...
               </p>
@@ -115,7 +115,7 @@ const Projects = () => {
               <div className="flex justify-between mt-8">
                 <div className="flex justify-center items-center gap-2">
                   <button className="text-White">
-                    <a href="https://github.com/zahidhasan1993/whizzyWheels">
+                    <a href="https://github.com/zahidhasan1993/toyverse-clint">
                       Github
                     </a>
                   </button>
@@ -123,7 +123,7 @@ const Projects = () => {
                 </div>
                 <div className="flex justify-center items-center gap-2 text-blue-500">
                   <button className="">
-                    <a href="https://whizzywheels.web.app/">Live site</a>
+                    <a href="https://toyverse-f253a.web.app/">Live site</a>
                   </button>
                   <FaArrowRight />
                 </div>
