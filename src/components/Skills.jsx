@@ -17,7 +17,7 @@ const Skills = () => {
         <motion.p
         className="text-4xl font-bold inline border-b-4 border-white py-4"
         animate={{
-          color: ['#BEE3F8', '#93C5FD', '#BEE3F8'],
+          color: ["#00FFFF", "#CC00FF", "#0033FF","#00FF33"],
           transition: { duration: 1, repeat: Infinity },
         }}
       >

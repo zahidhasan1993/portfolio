@@ -19,7 +19,7 @@ const Projects = () => {
           <motion.p
             className="text-4xl font-bold inline border-b-4 border-white py-4"
             animate={{
-              color: ["#BEE3F8", "#93C5FD", "#BEE3F8"],
+              color: ["#00FFFF", "#CC00FF", "#0033FF","#00FF33"],
               transition: { duration: 1, repeat: Infinity },
             }}
           >
@@ -95,7 +95,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
           <div className="bg-none text-white shadow-lg rounded-lg overflow-hidden w-full md:hover:scale-125 transition-transform">
             <img className="w-52 ml-12 mt-16" src={project3} alt="Card" />
             <div className="p-4 mt-10">
@@ -130,6 +129,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
