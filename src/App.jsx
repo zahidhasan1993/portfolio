@@ -26,10 +26,15 @@ const App = () => {
       <div className="my-40">
         <Projects></Projects>
       </div>
-      <div className="my-40">
-        <Contact></Contact>
+      <div className="">
+        <div>
+          <Contact></Contact>
+        </div>
       </div>
-      <Footer></Footer>
+
+      <div className="my-20">
+        <Footer></Footer>
+      </div>
     </div>
   );
 };
