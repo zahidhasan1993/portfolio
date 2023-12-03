@@ -3,6 +3,7 @@ import project1 from "../assets/Images/projects/1.png";
 import project3 from "../assets/Images/projects/3.png";
 import project4 from "../assets/Images/projects/4.png";
 import project5 from "../assets/Images/projects/hotel.jpg";
+import project6 from "../assets/Images/projects/6.webp";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -42,6 +43,16 @@ const Projects = () => {
       image: project5,
       githubURL: "https://github.com/zahidhasan1993/luxeseven",
       liveSiteURL: "https://luxeseven-f5a34.web.app/",
+      emojis: [128178, 128509],
+    },
+    {
+      name: "ZResume",
+      description:
+        "This App is a resume maker app. you have to just put your infos and your resume is ready to download",
+      image: project6,
+      githubURL: "https://github.com/zahidhasan1993/resume-builder",
+      liveSiteURL:
+        "https://656c74efc564b179cf3464e0--clinquant-choux-3007a4.netlify.app/",
       emojis: [128178, 128509],
     },
   ];
