@@ -26,13 +26,13 @@ const App = () => {
       <div className="my-40">
         <Projects></Projects>
       </div>
-      <div className="">
-        <div>
+      <div className="my-40">
+        <div className="p-20">
           <Contact></Contact>
         </div>
       </div>
 
-      <div className="my-20">
+      <div className="mt-20">
         <Footer></Footer>
       </div>
     </div>
